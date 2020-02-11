@@ -1,0 +1,103 @@
+{
+    "employees": [{
+            "id": 1,
+            "employeeId": 1,
+            "name": "Andrea"
+        },
+        {
+            "id": 2,
+            "employeeId": 2,
+            "name": "Tom"
+        },
+        {
+            "id": 3,
+            "employeeId": 3,
+            "name": "Matthew"
+        },
+        {
+            "id": 4,
+            "employeeId": 4,
+            "name": "Adrian"
+        },
+        {
+            "id": 5,
+            "employeeId": 5,
+            "name": "Savannah"
+        }
+
+    ],
+
+    "departments": [{
+        "id": 1,
+            "departmentId": 1,
+            "department": "Phones",
+            "employeeId": 2
+        },
+        {
+            "id": 2,
+            "departmentId": 2,
+            "department": "Receptionist",
+            "employeeId": 1
+
+        },
+        {
+            "id": 3,
+            "departmentId": 3,
+            "department": "Packing",
+            "employeeId": 4
+
+        },
+        {
+            "id": 4,
+            "departmentId": 4,
+            "department": "Developing",
+            "employeeId": 3
+
+        },
+        {
+            "id": 5,
+            "departmentId": 5,
+            "department": "Receptionist",
+            "employeeId": 5
+
+        }
+    ],
+
+    "computers": [{
+            "id": 1,
+            "type": "Macbook Pro",
+            "employeeId": 5,
+            "departmentId": 5
+
+        },
+        {
+            "id": 2,
+            "type": "Microsoft Surface",
+            "employeeId": 4,
+            "departmentId": 3
+
+        },
+        {
+            "id": 3,
+            "type": "Dell XPS",
+            "employeeId": 3,
+            "departmentId": 4
+
+        },
+        {
+            "id": 4,
+            "type": "Macbook Pro",
+            "employeeId": 2,
+            "departmentId": 1
+
+        },
+        {
+            "id": 5,        
+            "type": "Microsoft Surface",
+            "employeeId": 1,
+            "departmentId": 2
+
+        }
+
+    ]
+}
